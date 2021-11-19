@@ -101,7 +101,6 @@ const initGame = () => {
         playerChoice = getPlayerChoice()
         computerChoice = getComputerChoice()
         checkRoundOutcome(playerChoice, computerChoice)
-        console.log('Stats:')
         console.log(`Games: ${gameRules.stats.games} - Wins: ${gameRules.stats.wins} - Losses: ${gameRules.stats.losses} - Draws: ${gameRules.stats.losses}`)
     }
 }
